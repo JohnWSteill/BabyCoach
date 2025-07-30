@@ -1,0 +1,24 @@
+# Core RAG Dependencies
+chromadb>=0.4.0              # Local vector database
+openai>=1.0.0                # OpenAI API for embeddings and LLM
+langchain>=0.1.0             # RAG framework
+langchain-openai>=0.1.0      # OpenAI integration for LangChain
+langchain-community>=0.0.20  # Community integrations
+
+# Data Processing
+pandas>=2.0.0                # Data manipulation
+numpy>=1.24.0                # Numerical operations
+python-dotenv>=1.0.0         # Environment variable management
+
+# Development Tools
+jupyter>=1.0.0               # Interactive development
+ipykernel>=6.0.0             # Jupyter kernel
+notebook>=7.0.0              # Jupyter notebook interface
+
+# Optional: Local LLM support (if we want to experiment)
+# ollama>=0.1.0              # Local LLM runner (uncomment if needed)
+
+# Testing & Quality
+pytest>=7.0.0               # Testing framework
+black>=23.0.0               # Code formatting
+flake8>=6.0.0               # Linting

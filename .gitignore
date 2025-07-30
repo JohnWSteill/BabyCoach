@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
+
+# Data Security - NEVER commit personal data
+data/corpus/
+data/exports/
+data/evernote_*
+*.json
+!data/README.md
+!data/.gitkeep
+
+# Vector stores and caches
+data/chroma_db/
+data/vector_store/
+*.db
+*.sqlite
+
+# API Keys and secrets
+config/secrets.py
+config/.env
+*.key
+*.pem
+
+# Logs
+logs/
+*.log
+
+# macOS
+.DS_Store
